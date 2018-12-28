@@ -150,6 +150,7 @@ nav h1 a {
 }
 #restaurants-list .restaurant-img {
   background-color: #ccc;
+	border-radius: 10px;
   display: block;
   margin: 0;
   max-width: 100%;
@@ -219,6 +220,7 @@ nav h1 a {
   line-height: 1.1;
 }
 #restaurant-img {
+	border-radius: 10px;
 	width: 90%;
 }
 #restaurant-address {
