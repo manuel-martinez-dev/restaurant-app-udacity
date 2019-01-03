@@ -9,6 +9,7 @@ const cacheFiles = [
   '/js/main.js',
   '/js/map-API.js',
   '/js/restaurant_info.js',
+  '/img/favicon.ico',
 ];
 
 self.addEventListener('install', function(event) {
