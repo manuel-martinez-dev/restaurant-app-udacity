@@ -9,7 +9,7 @@ The initial design was static, had no accessibility, was also not responsive and
 
 ###  The Project Rubric:
 
-After cloning the project from the initial repository[mws-restaurant-stage-1](https://github.com/udacity/mws-restaurant-stage-1), the project was completed following Udacity's project rubric.[Restaurant Reviews project rubric](https://review.udacity.com/#!/rubrics/1090/view).
+After cloning the project from the initial repository [mws-restaurant-stage-1](https://github.com/udacity/mws-restaurant-stage-1), the project was completed following Udacity's project rubric [Restaurant Reviews project rubric](https://review.udacity.com/#!/rubrics/1090/view).
 
 ## Instructions:
 
