@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/* =====Small devices===== */
+@media (max-width: 600px) {
+  .inside #maincontent {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .inside #map-container {
+    height: 280px;
+    position: relative;
+    width: 100%;
+  }
+
+  #restaurant-container, #reviews-container {
+    width: 100%;
+  }
+
+  #breadcrumb {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .leaflet-control-zoom.leaflet-bar.leaflet-control {
+    margin-top: 6rem;
+  }
+
+  .inside #footer {
+    padding: 20px;
+    width: 100%;
+  }
+}
+
+/* =======Larger devices====== */
+@media (min-width:768px) {
+  #restaurant-container, #reviews-container {
+    width: 50%;
+  }
+
+  #restaurant-container {
+    flex-basis: 40%;
+    flex-grow: 1;
+  }
+
+  #reviews-container {
+    min-width: 365px;
+  }
+}

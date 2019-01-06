@@ -22,20 +22,19 @@ self.addEventListener('install', function(event) {
 
 self.addEventListener('fetch', function(event) {
   event.respondWith(caches.match(event.request).then(function(response) {
-      if (response) {
-        return response;
-      } else {
-        return fetch(event.request)
-          .then(function(response) {
-            const responseClone = response.clone();
-            caches.open(appName).then(function(cache) {
-              cache.put(event.request, responseClone);
-            })
-            return response;
-          }).catch(function(err) {
-            console.error(err);
-          });
-      }
-    })
-  );
+    if (response) {
+      return response;
+    } else {
+      return fetch(event.request)
+        .then(function(response) {
+          const responseClone = response.clone();
+          caches.open(appName).then(function(cache) {
+            cache.put(event.request, responseClone);
+          })
+          return response;
+        }).catch(function(err) {
+          console.error(err);
+        });
+    }
+  }));
 });
