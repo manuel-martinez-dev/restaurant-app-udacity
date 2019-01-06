@@ -1,15 +1,17 @@
 
-#### Restaurant Reviews - Introduction:
+## Project Title - Restaurant Reviews
+
+### Introduction:
 
 This is my submission as part of the Udacity Front End Developer Nanodegree. The application is called **Restaurant Reviews**.
 
 The initial design was static, had no accessibility, was also not responsive and lacked offline visibility.
 
-###  The Project Rubric
+###  The Project Rubric:
 
 After cloning the project from the initial repository[mws-restaurant-stage-1](https://github.com/udacity/mws-restaurant-stage-1), the project was completed following Udacity's project rubric.[Restaurant Reviews project rubric](https://review.udacity.com/#!/rubrics/1090/view).
 
-### Instructions
+## Instructions:
 
 Should you wish to clone this repository, bear in mind that a local server should be run in the terminal using python.
 
@@ -17,7 +19,7 @@ Should you wish to clone this repository, bear in mind that a local server shoul
 
 To see the site: `http://localhost:8000`.
 
-## Dependencies
+### Dependencies:
 
 [leafletjs](https://leafletjs.com/).
 
@@ -27,7 +29,7 @@ To see the site: `http://localhost:8000`.
 
 [Favicon](https://www.favicon.cc/).
 
-### Special thanks
+### Special thanks:
 
 This project could not have been completed without the help from:
 
