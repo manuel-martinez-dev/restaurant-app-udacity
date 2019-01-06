@@ -2,7 +2,7 @@ const appName = 'v1';
 const cacheFiles = [
   '/',
   '/restaurant.html',
-  '/css/medium.css',
+  '/css/mediaQueries.css',
   '/css/styles.css',
   '/data/restaurants.json',
   '/js/dbhelper.js',
