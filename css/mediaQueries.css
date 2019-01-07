@@ -32,13 +32,13 @@
 
   .inside #footer {
     padding: 20px;
-    width: 100%;
   }
 }
 
 /* =======Larger devices====== */
 @media (min-width:768px) {
   #restaurant-container, #reviews-container {
+    padding: 100px 20px;
     width: 50%;
   }
 
@@ -49,5 +49,9 @@
 
   #reviews-container {
     min-width: 365px;
+  }
+
+  #reviews-list li {
+    width: 80%
   }
 }
